@@ -1,0 +1,154 @@
+{
+ "address": "7ufmve7ZSFCzuNcKRunYrGtyb2Ka1MXzkWwf7jZhVsmL",
+ "record": {
+  "launches": 610,
+  "graduations": 170,
+  "graduation_rate": 0.2787,
+  "best_peak_usd": 918883.97,
+  "last_launch_gap_s": 1088,
+  "launches_last_day": 12,
+  "last_launch": "2026-10-24T16:25:20Z",
+  "launches_after_build": 34
+ },
+ "last_90_days": {
+  "launches_measured": 296,
+  "doubled": 74,
+  "doubled_share": 0.25,
+  "ten_x": 6,
+  "ten_x_share": 0.0203,
+  "held_2x": 5,
+  "held_2x_share": 0.0169,
+  "dead_next_day": 0,
+  "dead_share": 0,
+  "graduated_by_5m": 13
+ },
+ "recent_launches": [
+  {
+   "mint": "CFjgFfecwaG5mLW1u9rZtWDVVamiJCnSNXYrCgqJpump",
+   "created": "2026-10-20T12:55:36Z",
+   "market_cap_usd_at_5m": 12000.96,
+   "buyers_first_10s": 36,
+   "peak_mult_24h": 1.3195,
+   "close_mult_24h": 0.2626,
+   "dead_next_day": false,
+   "graduated": false
+  },
+  {
+   "mint": "VdgEuDXvZMqGdbEdoGMaMyM63u5dbPMeh3Mz3a8pump",
+   "created": "2026-10-20T12:48:23Z",
+   "market_cap_usd_at_5m": 2907.18,
+   "buyers_first_10s": 41,
+   "peak_mult_24h": 1.3416,
+   "close_mult_24h": 1.0285,
+   "dead_next_day": false,
+   "graduated": false
+  },
+  {
+   "mint": "FAkLBQc3aHAByWyd2jMHU3sLU4nasNiJJC57FL5Npump",
+   "created": "2026-10-20T11:54:50Z",
+   "market_cap_usd_at_5m": 2915.72,
+   "buyers_first_10s": 41,
+   "peak_mult_24h": 1.0325,
+   "close_mult_24h": 1.0214,
+   "dead_next_day": false,
+   "graduated": false
+  },
+  {
+   "mint": "HTn2gycbNfLcRFej3CNDbgjnHi1yVhZH8m7JS9yzpump",
+   "created": "2026-10-20T11:38:05Z",
+   "market_cap_usd_at_5m": 25396.6,
+   "buyers_first_10s": 45,
+   "peak_mult_24h": 1.399,
+   "close_mult_24h": 0.1264,
+   "dead_next_day": false,
+   "graduated": false
+  },
+  {
+   "mint": "DUy1wLkhsWNGkCqNERjMNLrkjm1FuFpFfaZvebDSpump",
+   "created": "2026-10-20T11:25:29Z",
+   "market_cap_usd_at_5m": 3999.59,
+   "buyers_first_10s": 68,
+   "peak_mult_24h": 1.4021,
+   "close_mult_24h": 0.7286,
+   "dead_next_day": false,
+   "graduated": false
+  },
+  {
+   "mint": "B77TPEKSR8nu23ZYUHB83LYxyGDBNkCzfvHXFkfRpump",
+   "created": "2026-10-20T11:00:52Z",
+   "market_cap_usd_at_5m": 13697.48,
+   "buyers_first_10s": 48,
+   "peak_mult_24h": 3.2647,
+   "close_mult_24h": 0.1894,
+   "dead_next_day": false,
+   "graduated": true
+  },
+  {
+   "mint": "2tPTVvkK18J6ccG51xpz4VeUrDVfTpkwEkBF1wCNpump",
+   "created": "2026-10-19T17:45:53Z",
+   "market_cap_usd_at_5m": 2938.56,
+   "buyers_first_10s": 51,
+   "peak_mult_24h": 1.0135,
+   "close_mult_24h": 1.0135,
+   "dead_next_day": false,
+   "graduated": false
+  },
+  {
+   "mint": "FoV6PirGWo82XtC9QdcXy9ezEo3LKKjWAJrTt8GFpump",
+   "created": "2026-10-19T17:14:29Z",
+   "market_cap_usd_at_5m": 16770.23,
+   "buyers_first_10s": 60,
+   "peak_mult_24h": 4.5939,
+   "close_mult_24h": 0.2221,
+   "dead_next_day": false,
+   "graduated": true
+  },
+  {
+   "mint": "qot6L2mun2NuFRFEbhm7y6B7iJoAH3vCDcYy4ATpump",
+   "created": "2026-10-19T16:52:56Z",
+   "market_cap_usd_at_5m": 16761.92,
+   "buyers_first_10s": 53,
+   "peak_mult_24h": 1.7514,
+   "close_mult_24h": 0.1825,
+   "dead_next_day": false,
+   "graduated": false
+  },
+  {
+   "mint": "EhLcdSErLo4NN214AgKhqL4AojfVoZZgPwxZmE6Dpump",
+   "created": "2026-10-19T16:22:15Z",
+   "market_cap_usd_at_5m": 2939.52,
+   "buyers_first_10s": 65,
+   "peak_mult_24h": 1.0059,
+   "close_mult_24h": 1.0059,
+   "dead_next_day": false,
+   "graduated": false
+  }
+ ],
+ "next_launch": {
+  "buckets": {
+   "b_launches": "21+",
+   "b_grads": "1+"
+  },
+  "launches_like_it": {
+   "launches_measured": 861654,
+   "doubled": 20316,
+   "doubled_share": 0.0236,
+   "ten_x": 2248,
+   "ten_x_share": 0.0026,
+   "held_2x": 1943,
+   "held_2x_share": 0.0023,
+   "dead_next_day": 535207,
+   "dead_share": 0.6211,
+   "graduated_by_5m": 6199
+  },
+  "note": "launches of the last 90 days whose deployer had the same record bucket at launch time (launches before it, graduated before it or not)"
+ },
+ "definitions": {
+  "window": "launches of the last 90 days measured at minute five with the whole 24 hours after in the data",
+  "doubled": "the highest market cap in the 24 hours after minute five was at least twice the market cap at minute five; ten_x: ten times",
+  "held_2x": "the market cap at the end of those 24 hours was at least twice the market cap at minute five",
+  "dead_next_day": "no priced trade in the 24 hours after minute five",
+  "curve_ceiling": "a pump.fun bonding curve ends at about 14.7 times its starting price; multiples above that happened on PumpSwap after graduation",
+  "not_a_verdict": "counts of what this wallet's launches did; who bought and who sold them is POST /wallets"
+ }
+}

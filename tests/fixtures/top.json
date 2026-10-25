@@ -1,0 +1,63 @@
+{
+ "wallets": [
+  {
+   "rank": 9,
+   "address": "DfMxre4cKmvogbLrPigxmibVTTQDuzjdXojWzjCXXhzj",
+   "class": "winner",
+   "why": "took out 24481.39 SOL more than it put in (1.28x) over 29702 coin-weeks (29206 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+   "pnl_sol": 24481.386038,
+   "put_in": 88028.683492,
+   "took_out": 112510.06953,
+   "coins": 29206,
+   "first_seen": "2024-04-26T05:38:21Z",
+   "recent": {
+    "days_active": 12,
+    "trades_per_day": 13.1,
+    "median_hold_s": 414,
+    "fast_share": 0.223,
+    "snipe_share": 0
+   },
+   "followable": true
+  },
+  {
+   "rank": 13,
+   "address": "9yxmCNwZcHe63NucU9yvCt7b1ja3jwP9v4T3yFMkQ1Z9",
+   "class": "winner",
+   "why": "took out 18615.69 SOL more than it put in (1.50x) over 5869 coin-weeks (5864 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+   "pnl_sol": 18615.690668,
+   "put_in": 37492.890282,
+   "took_out": 56108.58095,
+   "coins": 5864,
+   "first_seen": "2025-09-20T01:12:59Z",
+   "recent": {
+    "days_active": 7,
+    "trades_per_day": 3.3,
+    "median_hold_s": 908,
+    "fast_share": 0,
+    "snipe_share": 0
+   },
+   "followable": true
+  },
+  {
+   "rank": 23,
+   "address": "2AqFJzcgSMQ9v7Vwh4yE7Vux8brcrjus1eg4K1zM2zUd",
+   "class": "winner",
+   "why": "took out 12008.84 SOL more than it put in (1.32x) over 5901 coin-weeks (5896 coins) (the rule is 10+ SOL and 1%+ over 20+ coin-weeks)",
+   "pnl_sol": 12008.837479,
+   "put_in": 37750.228216,
+   "took_out": 49759.065695,
+   "coins": 5896,
+   "first_seen": "2025-09-20T01:12:48Z",
+   "recent": {
+    "days_active": 6,
+    "trades_per_day": 3.2,
+    "median_hold_s": 727,
+    "fast_share": 0,
+    "snipe_share": 0
+   },
+   "followable": true
+  }
+ ],
+ "total": 338,
+ "followable_only": true
+}

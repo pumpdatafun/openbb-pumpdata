@@ -1,0 +1,36 @@
+[project]
+name = "openbb-pumpdata"
+version = "0.1.0"
+description = "pumpdata.fun provider extension for OpenBB: pump.fun's whole on-chain history (deployers, launches, wallets, base rates, daily stats)."
+authors = [{ name = "pumpdata.fun", email = "support@pumpdata.fun" }]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.10,<4"
+keywords = ["openbb", "pump.fun", "solana", "memecoin", "pumpswap", "on-chain"]
+dependencies = ["openbb-core>=2.0.0"]
+
+[project.entry-points."openbb_provider_extension"]
+pumpdata = "openbb_pumpdata:pumpdata_provider"
+
+[project.entry-points."openbb_core_extension"]
+pumpdata = "openbb_pumpdata.pumpdata_router:router"
+
+[project.urls]
+Homepage = "https://pumpdata.fun"
+Documentation = "https://pumpdata.fun/pump-fun-api"
+Repository = "https://github.com/pumpdatafun/openbb-pumpdata"
+
+[dependency-groups]
+dev = ["pytest>=8", "pytest-asyncio>=0.23"]
+
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["openbb_pumpdata"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q --strict-markers"
+markers = ["integration: calls pumpdata.fun's free endpoints (run with -m integration)"]

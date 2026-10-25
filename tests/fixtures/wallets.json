@@ -1,0 +1,33 @@
+{
+ "7ufmve7ZSFCzuNcKRunYrGtyb2Ka1MXzkWwf7jZhVsmL": {
+  "class": "bot",
+  "why": "a sniper: 20+ coins bought in their create block or the next, half or more of the new coins it bought, over the build's last 20 days",
+  "pnl_sol": 9771.35553,
+  "put_in": 5469.621679,
+  "took_out": 15240.977209,
+  "coins": 594,
+  "first_seen": "2025-12-01T19:37:59Z",
+  "recent": {
+   "days_active": 12,
+   "trades_per_day": 86.3,
+   "median_hold_s": 1,
+   "fast_share": 0.619,
+   "snipe_share": 0.986
+  },
+  "summary": "Class bot; put in 5469.622 SOL and took out 15240.977 SOL (pnl 9771.356 SOL) over 594 coins; first seen 2025-12-01T19:37:59Z.",
+  "next_steps": [
+   {
+    "call": "baserate",
+    "method": "GET",
+    "path": "/baserate?band=15k-28k&from=2026-10-24T00%3A00%3A00Z&to=2026-10-25T00%3A00%3A00Z&venue=any",
+    "price_usd": 0.005,
+    "why": "the base rate for the 15k-28k band over any window you choose; this path is compare_to's window"
+   }
+  ],
+  "freshness": {
+   "data_as_of": "2026-10-25T06:29:05Z",
+   "lag_s": 33,
+   "history_as_of": "2026-10-21T13:36:05Z"
+  }
+ }
+}

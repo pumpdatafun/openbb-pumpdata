@@ -1,0 +1,30 @@
+{
+ "day": "2026-10-24",
+ "totals": {
+  "launched": 42009,
+  "graduated": 933,
+  "graduation_rate": 0.0222,
+  "volume_sol": 4733099.97,
+  "volume_curve_sol": 1196222.52,
+  "volume_pool_sol": 3536877.45,
+  "volume_usd": 480335191,
+  "volume_curve_usd": 121362775,
+  "volume_pool_usd": 358972416,
+  "trades": 11107303,
+  "trades_curve": 3980210,
+  "trades_pool": 7127093,
+  "traders": 500994,
+  "deployers": 9942,
+  "failed_transactions": 20329405,
+  "failed_fees_sol": 504.3107,
+  "failed_signers": 141144,
+  "failed_share": 0.6467
+ },
+ "headline": "42,009 launched \u00b7 933 graduated (2.2%) \u00b7 4,733,100 SOL traded \u00b7 92% dead by hour two",
+ "summary": "On Sat, Oct 24, 2026 (UTC), 42,009 coins launched on pump.fun and 933 graduated (2.22%); 4,733,100 SOL ($480.3M) traded. The biggest coin by peak market cap: $ANSEM at $86.9M. The most traded: $SWORDOPE, 38,610 SOL. The deployer whose coins traded most: F6rvtDs1CWMjWK12RXisHWsppJFFNEPjLCHxbFfCSRxj, 1 coin and 38,610 SOL. 92% of launches had no trade at all in their second hour. Launches down 12% on the 7-day average.",
+ "money": {
+  "traders_up": 338152,
+  "traders_down": 156144,
+  "sol_usd": 101.52
+ }
+}

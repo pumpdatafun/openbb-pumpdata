@@ -1,0 +1,144 @@
+{
+ "mint": "CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump",
+ "at_age_s": 14400,
+ "key": {
+  "age_s": 14400,
+  "b_launches": "21+",
+  "b_grads": "0",
+  "b_bundle": "1-3",
+  "b_insider": "60%+",
+  "b_curve": "migrated"
+ },
+ "yours": {
+  "deployer_launches": 333,
+  "deployer_graduations": 2,
+  "buyers_first_10s": 2,
+  "insider_share": 0.7493,
+  "curve_progress": 1,
+  "graduated": true
+ },
+ "same_bucket_n": 11,
+ "comparables": [
+  {
+   "mint": "ToD3aFpE6djsM1ajCMkJS2iLjYRnYUQ3ijFT7fRpump",
+   "created": "2026-10-20T02:17:02Z",
+   "deployer": "EFSr396A6Jh7bNCSujGRLMkyXspbWitEvjNVatGD56oF",
+   "same_deployer": true,
+   "at_5m": {
+    "market_cap_usd": 2961.16,
+    "buyers_first_10s": 1,
+    "bundle_supply_share": 0,
+    "insider_share": 0,
+    "curve_progress": 0.0074,
+    "graduated": false,
+    "deployer_launches_before": 322,
+    "deployer_graduations_before": 0
+   },
+   "next_24h": {
+    "dead": false,
+    "peak_mult": 1.058,
+    "close_mult": 1.0049
+   },
+   "similar_because": "the same deployer; 1 buyer in the first 10 s (yours: 2); insiders 0% at 5 min (yours: 75%); curve 1% at 5 min (yours: graduated)",
+   "age_days": 5
+  },
+  {
+   "mint": "CJaJiee3MXKNH8ZX1T4E6crYKJFmmZV1hQpRHMnGpump",
+   "created": "2026-10-20T02:14:44Z",
+   "deployer": "EFSr396A6Jh7bNCSujGRLMkyXspbWitEvjNVatGD56oF",
+   "same_deployer": true,
+   "at_5m": {
+    "market_cap_usd": 2928.7,
+    "buyers_first_10s": 1,
+    "bundle_supply_share": 0.000358,
+    "insider_share": 0,
+    "curve_progress": 0,
+    "graduated": false,
+    "deployer_launches_before": 321,
+    "deployer_graduations_before": 0
+   },
+   "next_24h": {
+    "dead": false,
+    "peak_mult": 1.3869,
+    "close_mult": 1.0278
+   },
+   "similar_because": "the same deployer; 1 buyer in the first 10 s (yours: 2); insiders 0% at 5 min (yours: 75%); curve 0% at 5 min (yours: graduated)",
+   "age_days": 5
+  },
+  {
+   "mint": "ELQGGve4AZ1pYU8FHX326smZKP4ZwQ7N4h8xfW7Ypump",
+   "created": "2026-10-19T06:35:17Z",
+   "deployer": "EFSr396A6Jh7bNCSujGRLMkyXspbWitEvjNVatGD56oF",
+   "same_deployer": true,
+   "at_5m": {
+    "market_cap_usd": 2951.91,
+    "buyers_first_10s": 1,
+    "bundle_supply_share": 0.001059,
+    "insider_share": 0,
+    "curve_progress": 0,
+    "graduated": false,
+    "deployer_launches_before": 320,
+    "deployer_graduations_before": 0
+   },
+   "next_24h": {
+    "dead": true,
+    "peak_mult": 1,
+    "close_mult": 1
+   },
+   "similar_because": "the same deployer; 1 buyer in the first 10 s (yours: 2); insiders 0% at 5 min (yours: 75%); curve 0% at 5 min (yours: graduated)",
+   "age_days": 6
+  },
+  {
+   "mint": "5R5kYEZGcGhBdTq8ig7CGg1zTKvGYzzPdPQ64ZTfrDUZ",
+   "created": "2026-09-29T22:00:05Z",
+   "deployer": "EFSr396A6Jh7bNCSujGRLMkyXspbWitEvjNVatGD56oF",
+   "same_deployer": true,
+   "at_5m": {
+    "market_cap_usd": 3324.6,
+    "buyers_first_10s": 7,
+    "bundle_supply_share": 0.196364,
+    "insider_share": 0,
+    "curve_progress": 0,
+    "graduated": false,
+    "deployer_launches_before": 319,
+    "deployer_graduations_before": 0
+   },
+   "next_24h": {
+    "dead": true,
+    "peak_mult": 1,
+    "close_mult": 1
+   },
+   "similar_because": "the same deployer; 7 buyers in the first 10 s (yours: 2); insiders 0% at 5 min (yours: 75%); curve 0% at 5 min (yours: graduated)",
+   "age_days": 25
+  },
+  {
+   "mint": "5md7hY2szpebTx3df9CDXy8swK4hUUCeCRaM5cJnpump",
+   "created": "2026-09-28T00:37:11Z",
+   "deployer": "EFSr396A6Jh7bNCSujGRLMkyXspbWitEvjNVatGD56oF",
+   "same_deployer": true,
+   "at_5m": {
+    "market_cap_usd": 3412.1,
+    "buyers_first_10s": 23,
+    "bundle_supply_share": 0.649088,
+    "insider_share": 0.0003,
+    "curve_progress": 0.0003,
+    "graduated": false,
+    "deployer_launches_before": 318,
+    "deployer_graduations_before": 0
+   },
+   "next_24h": {
+    "dead": false,
+    "peak_mult": 1,
+    "close_mult": 0.989
+   },
+   "similar_because": "the same deployer; 23 buyers in the first 10 s (yours: 2); insiders 0% at 5 min (yours: 75%); curve 0% at 5 min (yours: graduated)",
+   "age_days": 27
+  }
+ ],
+ "summary": "5 comparable launches from the last 90 days: 2 dead within 24 h of minute 5, 4 closed at or above their 5-minute market cap, median peak 1x",
+ "definitions": {
+  "comparables": "launches of the last 90 days measured at minute 5 with the whole 24 h after in the data: the same deployer's prior launches first (newest), then the nearest in the same /launch bucket by the deployer's launches and graduations, the first-10 s buyers, the insiders' share and the curve progress, with a recency term",
+  "next_24h": "over (created + 5 min, created + 5 min + 24 h]: peak_mult and close_mult are market cap over the market cap at minute 5; dead = no trade at all in those 24 h (peak and close stay 1)",
+  "not_a_prediction": "what launches that looked like this did next; the outcomes are settled, the resemblance is five features"
+ }
+}

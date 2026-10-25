@@ -1,0 +1,117 @@
+{
+ "mint": "CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump",
+ "created": "2026-10-20T23:00:15Z",
+ "deployer": {
+  "address": "EFSr396A6Jh7bNCSujGRLMkyXspbWitEvjNVatGD56oF",
+  "launches": 333,
+  "graduations": 3,
+  "best_peak": 45448648.14,
+  "last_launch_gap_s": 105,
+  "launches_last_day": 7
+ },
+ "bundle_at_creation": {
+  "buyers_first_10s": 2,
+  "supply_share": 0.7931
+ },
+ "insider_supply_share": 0.7493,
+ "curve_bought_at_launch": {
+  "yes": true,
+  "buyers": 2,
+  "supply_share": 0.7931,
+  "migrated_after_s": 1,
+  "launching_wallets_hold_now": 0.7493
+ },
+ "age_s": 372560,
+ "curve_progress": 1,
+ "migrated_at": "2026-10-20T23:00:16Z",
+ "market_cap_usd_at_age": {
+  "usd": 31987609.65,
+  "at_age_s": 14400
+ },
+ "matches": {
+  "n": 143,
+  "graduated_share": 1,
+  "peak_day1": {
+   "p10": 1,
+   "p25": 1,
+   "p50": 1,
+   "p75": 1,
+   "p90": 1,
+   "dead": 141
+  },
+  "close_day1": {
+   "p10": 1,
+   "p25": 1,
+   "p50": 1,
+   "p75": 1,
+   "p90": 1,
+   "dead": 141
+  },
+  "at_age_s": 14400,
+  "buckets": {
+   "age_s": 14400,
+   "b_launches": "21+",
+   "b_grads": "0",
+   "b_bundle": "1-3",
+   "b_insider": "60%+",
+   "b_curve": "migrated"
+  }
+ },
+ "note": "curve_progress, insider_supply_share and the deployer's record are as of the tables' build (the launch's last recorded age: 14400 s)",
+ "market_cap_usd_now": 5608244,
+ "market_cap_as_of": "2026-10-25T05:59:52Z",
+ "sol_reserve_now": 1269.336,
+ "holders": null,
+ "holders_as_of": null,
+ "summary": "This launch was created 4 days ago by a deployer with 333 launches and 3 graduations on record; 2 buyers in the first 10 s took 79.3% of supply; insiders' share of supply on record: 74.9%; it migrated to the pool at 2026-10-20T23:00:16Z; 143 launches matched it at 4 h old: 100% of them graduated, their median peak over the next 24 h was 1x the market cap at that age, their median close 24 h on was 1x, 141 of them had no trade in the 24 h after that age; for comparison, 1733 coins first traded inside the 15k-28k band from 2026-10-24T00:00:00Z to 2026-10-25T00:00:00Z (venue any) and 35.6% reached 2x, 13.1% reached 5x, 5.9% reached 10x, 2.7% reached 20x within 3 h.",
+ "compare_to": {
+  "band": "15k-28k",
+  "venue": "any",
+  "from": "2026-10-24T00:00:00Z",
+  "to": "2026-10-25T00:00:00Z",
+  "crossed": 1733,
+  "reached": {
+   "2x": 0.356,
+   "5x": 0.131,
+   "10x": 0.059,
+   "20x": 0.027
+  },
+  "median_peak": 1.491,
+  "basis": "headline band 15k-28k: this launch's market cap at 14400 s is outside the band grid",
+  "source": "/public/baserate.json"
+ },
+ "next_steps": [
+  {
+   "call": "wallets",
+   "method": "POST",
+   "path": "/wallets",
+   "price_usd": 0.01,
+   "why": "the deployer's own wallet record, with this mint as context",
+   "body": {
+    "addresses": [
+     "EFSr396A6Jh7bNCSujGRLMkyXspbWitEvjNVatGD56oF"
+    ],
+    "mint": "CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump"
+   }
+  },
+  {
+   "call": "baserate",
+   "method": "GET",
+   "path": "/baserate?band=15k-28k&from=2026-10-24T00%3A00%3A00Z&to=2026-10-25T00%3A00%3A00Z&venue=any",
+   "price_usd": 0.005,
+   "why": "the base rate for the 15k-28k band over any window you choose; this path is compare_to's window"
+  },
+  {
+   "call": "replay",
+   "method": "POST",
+   "path": "/replay",
+   "price_usd": 2,
+   "why": "replay picks on this mint against the chain's history; the body is {picks: [{mint: \"CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump\", at, size_sol}]}"
+  }
+ ],
+ "freshness": {
+  "data_as_of": "2026-10-25T06:29:05Z",
+  "lag_s": 30,
+  "history_as_of": "2026-10-21T13:36:05Z"
+ }
+}
