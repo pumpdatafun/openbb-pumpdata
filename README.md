@@ -10,7 +10,7 @@ that looked the same went, what a wallet did on pump.fun, and how often coins cr
 ## Install
 
 ```bash
-pip install git+https://github.com/pumpdatafun/openbb-pumpdata
+pip install openbb-pumpdata      # or: pip install git+https://github.com/pumpdatafun/openbb-pumpdata
 python -c "import openbb; openbb.build()"
 ```
 

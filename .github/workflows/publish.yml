@@ -1,0 +1,39 @@
+# Tests on every push and pull request; on a published GitHub release, the same tests, then the build goes to PyPI by
+# trusted publishing (no token stored anywhere: PyPI trusts this workflow in this repository, environment "pypi").
+name: test and publish
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  release:
+    types: [published]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ["3.10", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: pip install -e . pytest pytest-asyncio
+      - run: pytest
+
+  publish:
+    if: github.event_name == 'release'
+    needs: test
+    runs-on: ubuntu-latest
+    environment: pypi
+    permissions:
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - run: pip install build && python -m build
+      - uses: pypa/gh-action-pypi-publish@release/v1
